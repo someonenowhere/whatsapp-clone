@@ -1,0 +1,6 @@
+.chat__linkscontainer{
+    flex:0.35;
+    background-color:lightgrey;
+    display:flex;
+    flex-direction: column;
+}

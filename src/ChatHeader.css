@@ -1,0 +1,48 @@
+.chatHeader__container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: lightgrey;
+    border-left:1px solid darkgray;
+    border-bottom:1px solid darkgray;
+    flex:1.24;
+}
+
+#chat__info{
+    display:flex;
+    align-items: center;
+    flex:4;
+}
+
+.icon__buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex:1;
+}
+
+.avatar__icon{
+    padding: 5px;
+    margin: 20px;
+}
+
+h4{
+    margin-bottom: 9px;
+    margin-left:5px;
+    
+}
+
+p{
+    margin-top: 0;
+    margin-left:5px;
+}
+
+.icon__buttons > svg{
+    color:gray;
+}
+
+.chatHeader__container{
+background-color: rgb(236, 233, 233);
+}

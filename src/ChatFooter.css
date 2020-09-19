@@ -1,0 +1,22 @@
+.chatFooter__container{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(236, 233, 233);
+}
+
+.chatFooter__container > input{
+    display: flex;
+    flex:9;
+    border-radius: 20px;
+    outline-width: 0;
+    border: none;
+    padding:10px;
+}
+
+.chatFooter__container > svg{
+    flex:1;
+    color: gray;
+}
