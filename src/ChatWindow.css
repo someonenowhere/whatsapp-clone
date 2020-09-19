@@ -1,0 +1,44 @@
+.chatWindow__container{
+    display: flex;
+    flex:5;
+    overflow: scroll;
+    flex-direction: column;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+}
+
+#chat__received{
+    padding:15px;
+    height:15px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 25px;
+    border-radius: 20px;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+#chat__sent{
+    padding:15px;
+    height:15px;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 25px;
+    border-radius: 20px;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left:550px;
+}
+
+#chatter{
+    position: absolute;
+    bottom: 52px;
+    font-size: xx-small;
+    font-weight: bold;
+}
+
+.date__time{
+    font-size: xx-small;
+    margin-left: 5px;
+}
